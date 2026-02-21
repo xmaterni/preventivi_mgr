@@ -26,13 +26,13 @@ jobs:
           pip install pyinstaller
 
       - name: Compila con PyInstaller
-        run: pyinstaller --onefile --name preentivi_mgr preentivi_mgr.py
+        run: pyinstaller --onefile --name preventivi_mgr preventivi_mgr.py
 
       - name: Carica l'eseguibile come artifact
         uses: actions/upload-artifact@v4
         with:
-          name: preentivi_mgr-windows
-          path: dist/preentivi_mgr.exe
+          name: preventivi_mgr-windows
+          path: dist/preventivi_mgr.exe
 
   build-linux:
     runs-on: ubuntu-latest
@@ -52,10 +52,10 @@ jobs:
           pip install pyinstaller
 
       - name: Compila con PyInstaller
-        run: pyinstaller --onefile --name preentivi_mgr preentivi_mgr.py
+        run: pyinstaller --onefile --name preventivi_mgr preventivi_mgr.py
 
       - name: Carica l'eseguibile come artifact
         uses: actions/upload-artifact@v4
         with:
-          name: preentivi_mgr-linux
-          path: dist/preentivi_mgr
+          name: preventivi_mgr-linux
+          path: dist/preventivi_mgr
