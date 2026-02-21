@@ -1,0 +1,3 @@
+# Nessuna dipendenza esterna (pip) richiesta.
+# Il progetto utilizza esclusivamente la Standard Library di Python e tkinter.
+# Nota per utenti Linux: assicurarsi che python3-tk sia installato tramite il gestore pacchetti di sistema (es. sudo apt install python3-tk).
