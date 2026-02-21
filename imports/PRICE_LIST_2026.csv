@@ -1,0 +1,53 @@
+﻿Tariffa|DESCRIZIONE|unità misura|Prezzo
+S.ED.001|Demolizione di tramezzatura in mattoni forati, compreso il calo in basso del materiale di risulta|mq|45,00
+S.ED.002|Demolizione di pavimento, compreso il massetto di sottofondo fino a 5 cm di spessore, compreso il calo in basso del materiale di risulta|mq|30,00
+S.ED.003|Demolizione di maiolicato, compreso il calo in basso del materiale di risulta|mq|30,00
+S.ED.004|Rimozione di battiscopa|ml|3,00
+S.ED.005|Rimozione di carta da parati|mq|9,00
+S.ED.006|Rimozione di porte e controtelai|cad|20,00
+S.ED.007|Esecuzione di tracce a pavimento fino a 25 cm di larghezza, compresa la chiusura delle stesse|ml|26,00
+S.ED.008|Esecuzione di tracce a parete fino a 15 cm di larghezza, compresa la chiusura delle stesse|ml|20,00
+S.ED.009|Realizzazione di tramezzo in cartongesso con apposizione di doppia lastra e isolante interno|mq|50,00
+S.ED.010|Realizzazione di controsoffitto ad una sola quota e senza lavorazioni|mq|70,00
+S.ED.011|Realizzazione di controsoffitto lavorato, come finte travi, tracantoni, disegni particolari o su più quote|mq|90,00
+S.ED.012|Rasatuta, scartavetratuta e tinteggiatura con tinta lavabile|mq|25,00
+S.ED.013|Rasatuta, scartavetratuta e tinteggiatura con tinta a smalto o lavorazioni particolari |mq|35,00
+S.ED.014|Fornitura e posa in opera di pavimento in ceramica del formato massimo 60x120(costo materiale € 20)|mq|70,00
+S.ED.015|Fornitura e posa in opera di pavimento in ceramica del formato massimo oltre il 60x120 (costo materiale € 30)|mq|80,00
+S.ED.016|Fornitura e posa in opera di rivestimento in ceramica per cucina|mq|80,00
+S.ED.017|Posa in opera di controtelai per porte|cad|40,00
+S.ED.018|Realizzazione di autolivellante fino ad uno spessore di cm2|mq|60,00
+S.ED.019|voce da definire||
+S.ED.020|voce da definire||
+S.EL.001|Punto presa compreso di porzione di linea dorsale, cestello porta frutto, frutto e placcavserie eco.|cad|60,00
+S.EL.002|Punto di comando compreso di porzione di linea dorsale, cestello porta frutto, frutto e placca seria eco|cad|60,00
+S.EL.003|Punto rete/antenna compreso di porzione di linea dorsale, cestello porta frutto, frutto e placca serie eco.|cad|60,00
+S.EL.004|Impianto citofonico compreso di posto interno compatibile con posto esterno esistente|cad|180,00
+S.EL.005|Quadro generale per appartamento  monolocale|cad|350,00
+S.EL.006|Quadro generale per appartamento  bilocale|cad|400,00
+S.EL.007|Quadro generale per appartamento  trilocale|cad|450,00
+S.EL.008|Quadro generale per appartamento da tre camere, due bagni, sala e cucina|cad|500,00
+S.EL.009|Impianto di messa a terra per appartamento |cad|150,00
+S.EL.010|Impianto per messa a terra per villetta|cad|180,00
+S.EL.011|Impianto antenna|cad|230,00
+S.EL.012|Impianto di leggera domotica monolocale|cad|1000,00
+S.EL.013|Impianto di leggera domotica bilocale|cad|1500,00
+S.EL.014|Impianto di leggera domotica trilocale|cad|2000,00
+S.EL.015|Impianto di leggera domotica tre camere due bagni sala cucina|cad|2500,00
+S.EL.016|Impianto predisposizione condizionatori|cad|350,00
+S.EL.017|Impianto predisposizione luci nel controsoffitto|cad|350,00
+S.ID.001|Realizzazione di schermatura cuncina|cad|800,00
+S.ID.002|Realizzazione di schermatura bagno|cad|1200,00
+S.ID.003|Fonitura e posa in opera di cladaia a gas |cad|1800,00
+S.ID.004|Fornitura e posa in opera di pompa di calore fino a kw 15|cad|3000,00
+S.ID.005|Fornitura e posa in opera di pompa di calore fino a kw 20|cad|3500,00
+S.ID.006|Fornitura e posa in opera di pompa di calore fino a kw 25|cad|4000,00
+S.ID.007|Fornitura e posa in opera di condizionatore da btu 9000|cad|1500,00
+S.ID.008|Fornitura e posa in opera di condizionatore da btu 12000|cad|2000,00
+S.ID.009|Fornitura e posa in opera di condizionatore da btu 15000|cad|2500,00
+S.ID.010|Fornitura e posa in opera di radiatori in alluminio fino a 60|cad|80,00
+S.ID.011|Fornitura e posa in opera di radiatori in alluminio fino a 80|cad|100,00
+S.ID.012|Fornitura e posa in opera di radiatori in alluminio fino a 120|cad|120,00
+S.ID.013|da completare||
+S.ID.014|da completare||
+S.ID.015|da completare||

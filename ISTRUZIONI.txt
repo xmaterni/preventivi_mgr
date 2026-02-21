@@ -1,0 +1,23 @@
+GUIDA APPLICAZIONE 'PREVENTIVI_MGR' (Standalone)
+==============================================
+
+La cartella `prv/` è ora un'applicazione COMPLETAMENTE AUTONOMA.
+Puoi spostarla dove desideri e funzionerà senza dipendenze esterne.
+
+AVVIO:
+1. Entra nella cartella `prv/`.
+2. Lancia l'applicazione:
+   python3 preventivi_mgr.py
+
+STRUTTURA CARTELLE:
+- /data: Contiene il database SQLite (computa_ai.db).
+- /imports: Contiene i listini CSV pronti per l'uso (es. PRICE_LIST_2026.csv).
+- /exports: Qui vengono salvati i preventivi in formato .txt.
+
+OPERAZIONI INIZIALI:
+1. All'avvio, vai nella scheda "GESTIONE PREZZARIO".
+2. Clicca su "IMPORTA CSV".
+3. Seleziona il file che trovi nella cartella `imports/`.
+
+NOTE:
+Questa applicazione gestisce in modo sicuro le azioni CRUD (Crea, Leggi, Aggiorna, Elimina) per prezzari e preventivi, mantenendo uno snapshot dei prezzi al momento della creazione del preventivo.

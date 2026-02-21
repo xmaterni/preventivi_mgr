@@ -1,0 +1,61 @@
+name: Build Executables
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+
+  build-windows:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout del codice
+        uses: actions/checkout@v4
+
+      - name: Installa Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Installa dipendenze
+        run: |
+          pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install pyinstaller
+
+      - name: Compila con PyInstaller
+        run: pyinstaller --onefile --name preentivi_mgr preentivi_mgr.py
+
+      - name: Carica l'eseguibile come artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: preentivi_mgr-windows
+          path: dist/preentivi_mgr.exe
+
+  build-linux:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout del codice
+        uses: actions/checkout@v4
+
+      - name: Installa Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Installa dipendenze
+        run: |
+          pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install pyinstaller
+
+      - name: Compila con PyInstaller
+        run: pyinstaller --onefile --name preentivi_mgr preentivi_mgr.py
+
+      - name: Carica l'eseguibile come artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: preentivi_mgr-linux
+          path: dist/preentivi_mgr
